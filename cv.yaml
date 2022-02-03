@@ -1,7 +1,7 @@
 # CV data for Brent Pappas
 name: Brent Pappas
 
-summary: PhD Student | Hobbyist Web Developer | Aspiring Systems Programmer
+summary: Programming Languages Researcher | PhD Student
 
 contact:
   email: pappasbrent@gmail.com
@@ -34,7 +34,7 @@ skills:
         efficient language to work in. That being said, it is not the tool I
         use for tasks that necessitate high runtime speed and efficiency.
       - I wrote my [first commissioned site](http://www.dollarsfordrs.com/)
-        in the Python Flask framework.
+        in the Python Flask web framework.
       - I created an
         [API for the Periodic Table of Elements](https://rapidapi.com/PappasBrent/api/periodic-table-of-elements/)
         using Flask and the SQLAlchemy ORM.
@@ -54,9 +54,11 @@ skills:
       - I have experience with the Bootstrap library, and used it to design my
         [first commissioned site](http://www.dollarsfordrs.com/)
       - I used NodeJs and the Express web framework to create a
-        [full-stack web application](http://www.pallet-town.me/)
+        full-stack web application
         featuring user authentication and back-end image processing to
         facilitate online play of the _Pokémon Trading Card Game_.
+        At its peak, this website had __130__ users who created a total
+        of over __600__ decks of cards.
       - I used these languages to implement the
         [landing page](https://card-fight-vanguard-api.ue.r.appspot.com)
         of
@@ -231,11 +233,18 @@ volunteering:
     description: Teaching elementary, middle, and high school students the
       basics of computer programming
     dates: [2021-06-28]
-    
+
 publications:
   - name: "SugarC: Scalable Desugaring of Real-World Preprocessor Usage into Pure C"
     event: ICSE 2022
-    authors: ["Zach Patterson", "Zenong Zhang", "Brent Pappas", "Shiyi Wei", "Paul Gazzillo"]
+    authors:
+      [
+        "Zach Patterson",
+        "Zenong Zhang",
+        "Brent Pappas",
+        "Shiyi Wei",
+        "Paul Gazzillo",
+      ]
 
 awards:
   - Provost Scholarship from the UCF.
