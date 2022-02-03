@@ -59,6 +59,8 @@ skills:
         facilitate online play of the _Pokémon Trading Card Game_.
         At its peak, this website had __130__ users who created a total
         of over __600__ decks of cards.
+        I no longer maintain this site, but its code is publicly
+        available and can be found [here](https://github.com/PappasBrent/pallet-town).``
       - I used these languages to implement the
         [landing page](https://card-fight-vanguard-api.ue.r.appspot.com)
         of
