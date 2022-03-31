@@ -247,6 +247,15 @@ publications:
         "Shiyi Wei",
         "Paul Gazzillo",
       ]
+      
+posters:
+  - name: "Cpp2C: Transforming C preprocessor code to C code"
+    event: "UCF Research Week - Student Scholar Symposium"
+    authors: [
+      "Brent Pappas",
+      "Paul Gazzillo"
+    ]
+    dates: [2022-03-30]
 
 awards:
   - Provost Scholarship from the UCF.
