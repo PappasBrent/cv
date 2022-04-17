@@ -1,0 +1,242 @@
+%------------------------
+% Brent Pappas CV
+% Template Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{{\LARGE Brent Pappas}} & Email: \href{mailto:}{pappasbrent@gmail.com}\\
+    \href{https://pappasbrent.com}{Portfolio: pappasbrent.com} & Mobile:~~~+1-954-661-8540 \\
+    \href{https://github.com/pappasbrent}{Github: ~~github.com/pappasbrent} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of Central Florida (UCF)}
+{Orlando, Florida}
+{Bachelor of Science - Computer Science;  GPA: 3.849}
+{August 2017 - May 2021}
+{\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:}
+            Data Structures and Algorithms,
+            Systems Software,
+            Programming Languages,
+            Discrete Structures}}}
+\resumeSubheading
+{UCF}
+{Orlando, Florida}
+{PhD - Computer Science;  GPA: 4.000}
+{August 2021 - Present}
+{\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:}
+            Analysis of Algorithms,
+            Complexity Theory,
+            Computer Architecture,
+            Compiler Construction}}}
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\vspace{-5pt}
+\section{Skills Summary}
+\resumeSubHeadingListStart
+\resumeSubItem{Languages}{~~~~~~Python 3, HTML/CSS/JavaScript, C/C++/C\#, Java, Go, Haskell, Coq, SQL}
+\resumeSubItem{Tools}{~~~~~~~~~~~~~~Git, GitHub, LLVM/Clang}
+\resumeSubItem{Platforms}{~~~~~~~Linux, Web, Windows}
+\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Writing, Communication, Time Management}
+\resumeSubHeadingListEnd
+
+%-----------WORK EXPERIENCE-----------------
+\vspace{-5pt}
+\section{Experience}
+\resumeSubHeadingListStart
+\resumeSubheading{UCF}{In-person/Remote}
+{Graduate Research Assistant}{July 2021 - Present}
+\resumeItemListStart
+\resumeItem{Research in Progamming Languages}
+{Stay up-to-date on the latest academic developments in programming languages.}
+\resumeItem{Formal Methods}
+{Formulate theorems about programming languages and try to prove using the Coq
+    Proof Assistant.}
+\resumeItem{Implement Ideas}
+{Implement research ideas in languages such as C++.
+    E.g. a Clang plugin for transforming C preprocessor macros to C functions.}
+\resumeItem{Run Experiments}
+{Write Python and Bash scripts to automate running experiments.}
+\resumeItemListEnd
+
+\vspace{-5pt}
+\resumeSubheading
+{SP+}{In-person/Remote}
+{Quality Assurance Coordinator}{September 2019 -  July 2021}
+\resumeItemListStart
+\resumeItem{Agile Software Development}
+{Engage in agile software development methods within a small team to QA test software before moving on to later phases of development.}
+\resumeItem{Testing Automation}
+{Refactor and write Python scripts to automate testing of various online user applications.}
+\resumeItem{Mobile Application Testing}
+{Test company Android apps for compatibility with various versions of Android.}
+\resumeItemListEnd
+
+\vspace{-5pt}
+\resumeSubheading
+{Student Academic Resource Center of UCF}{In-person}
+{Peer Mentor}{August 2018 -  December 2019}
+\resumeItemListStart
+\resumeItem{Lead Tutoring Sessions}
+{Led Computer Science 1 and Object Oriented Programming tutoring sessions involving Socratic learning methods.}
+\resumeItem{Faculty Collaboration}
+{Collaborated with UCF teaching staff to enhance tutoring session quality.}
+\resumeItem{Tutor Mentoring}
+{Observed other tutors' sessions and provided feedback as to how they may improve their communication and tutoring skills.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem
+{Cpp2C}
+{C++ Clang plugin that automatically transforms eligible C preprocessor macros into C functions.
+    This enables other source-to-source translators to translate C programs without needing to preprocess them first and lose developer abstractions.}
+\vspace{2pt}
+\resumeSubItem
+{Pokemon Trading Card Game to Tabletop Simulator}
+{NodeJS web application written in the Express framework.
+    Interfaces with another API to allow users to create a virtual deck of cards from the Pokemon Trading Card Game.
+    Users can then export those cards to the computer game Tabletop Simulator and actually play with other users.
+    User decks were saved as grids of images and uploaded on the backend to a private AWS bucket.
+    A user authentication and password reset system were in place to enable users to access their decks from any device.}
+\vspace{2pt}
+\resumeSubItem
+{Cardfight Vanguard API}
+{Wrote a Python script to collect card on thousands of card from the Cardfight Vanguard wiki.
+    Uploaded images found to a private AWS bucket, then wrote a web API in Go to enable others to easily access data and images in a programmatic way.}
+\resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------------
+\vspace{-5pt}
+\section{Publications}
+\resumeSubHeadingListStart
+\resumeSubItem
+{(To appear) SugarC: Scalable Desugaring of Real-World Preprocessor Usage into Pure C.}
+{Zach Patterson, Zenong Zhang, Brent Pappas, Shiyi Wei, and Paul Gazzillo. ICSE 2022.}
+\resumeSubHeadingListEnd
+
+%-----------POSTERS-----------------
+\vspace{-5pt}
+\section{Posters}
+\resumeSubHeadingListStart
+\resumeSubItem
+{Cpp2C: Transforming C Preprocessor Macros to C Language Constructs}
+{Presented a poster on transforming C preprocessor macros to C functions at the UCF 2022 Student Scholar Symposium.}
+\resumeSubHeadingListEnd
+
+%-----------AWARDS-----------------
+\vspace{-5pt}
+\section{Honors and Awards}
+\begin{description}[font=$\bullet$]
+    \item {Provost Scholarship from the UCF.}
+          \vspace{-5pt}
+    \item {Member of the Burnett Honors College at the UCF.}
+          \vspace{-5pt}
+    \item {On the Dean's List at UCF for all of undergraduate degree.}
+          \vspace{-5pt}
+    \item {Received Bachelor's degree with cum laude honors from UCF.}
+          \vspace{-5pt}
+    \item {College Readiness and Learning Assessment (CRLA) Level 1 certified tutor.}
+          \vspace{-5pt}
+    \item {\href{https://drive.google.com/file/d/1idZ5hhQQF4f-ZRQCBUplQTGU9YjS7fUs/view?usp=sharing}{CRLA Level 2 certified tutor}}
+          \vspace{-5pt}
+    \item {UCF Student Enhancement Training (SET) program certified.}
+
+\end{description}
+
+%-----------VOLUNTEERING-----------------
+\vspace{-5pt}
+\section{Volunteer Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Camp Connect (at UCF)}
+{Orlando, Florida}
+{Teaching elementary, middle, and high school students the
+    basics of computer programming}
+{June 2021}
+\resumeSubHeadingListEnd
+
+\end{document}
