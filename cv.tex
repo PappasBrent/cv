@@ -58,8 +58,15 @@
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{#3} & \textit{#4} \\
+      \textbf{#1} & #2 \vspace{-1pt} \\
+      \textit{#3} & #4 \vspace{4pt} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\volunteeringItem}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \vspace{-2pt} \\
     \end{tabular*}\vspace{-5pt}
 }
 
@@ -68,7 +75,7 @@
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
@@ -140,7 +147,6 @@
   Guido, for advice and criticism.}
 \resumeItemListEnd
 
-\vspace{-5pt}
 \resumeSubheading{UCF}{In-person/Remote}
 {Graduate Research Assistant}{July 2021 - Present}
 \resumeItemListStart
@@ -156,7 +162,6 @@
 {Write Python and Bash scripts to automate running experiments.}
 \resumeItemListEnd
 
-\vspace{-5pt}
 \resumeSubheading
 {SP+}{In-person/Remote}
 {Quality Assurance Coordinator}{September 2019 -  July 2021}
@@ -169,7 +174,6 @@
 {Tested company Android apps for compatibility with various versions of Android.}
 \resumeItemListEnd
 
-\vspace{-5pt}
 \resumeSubheading
 {Student Academic Resource Center of UCF}{In-person}
 {Peer Mentor}{August 2018 -  December 2019}
@@ -250,9 +254,9 @@
 \vspace{-5pt}
 \section{Honors and Awards}
 \begin{description}[font=$\bullet$]
-  \item {Provost Scholarship from the UCF.}
+  \item {Provost Scholarship from UCF.}
         \vspace{-5pt}
-  \item {Member of the Burnett Honors College at the UCF.}
+  \item {Member of the Burnett Honors College at UCF.}
         \vspace{-5pt}
   \item {On the Dean's List at UCF for all of undergraduate degree.}
         \vspace{-5pt}
@@ -270,11 +274,9 @@
 \vspace{-5pt}
 \section{Volunteer Experience}
 \resumeSubHeadingListStart
-\resumeSubheading
+\volunteeringItem
 {Camp Connect (at UCF)}
-{Orlando, Florida}
-{}
-{June 2021, June 2023}
+{Orlando, Florida - June 2021, June 2023}
 \resumeItemListStart
 \resumeItem
 {Teaching}
@@ -283,11 +285,9 @@
 \resumeItemListEnd
 
 \vspace{2pt}
-\resumeSubheading
+\volunteeringItem
 {UCF CECS Senior Design Judge}
-{Orlando, Florida}
-{}
-{April 2022}
+{Orlando, Florida - April 2022}
 \resumeItemListStart
 \resumeItem
 {Judging}
@@ -296,11 +296,9 @@
 \resumeItemListEnd
 
 \vspace{2pt}
-\resumeSubheading
+\volunteeringItem
 {UCF CECS Career Kickoff Alumni Mentor}
-{Orlando, Florida}
-{}
-{October 2022}
+{Orlando, Florida - October 2022}
 \resumeItemListStart
 \resumeItem
 {Mentoring}
@@ -311,11 +309,9 @@
 \resumeItemListEnd
 
 \vspace{2pt}
-\resumeSubheading
+\volunteeringItem
 {EuroSys 2023 Shadow Program Committee Member}
-{Virtual}
-{}
-{November-Decemeber 2022}
+{Virtual - November-December 2022}
 \resumeItemListStart
 \resumeItem
 {Paper Review}
