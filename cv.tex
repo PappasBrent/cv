@@ -197,13 +197,18 @@
 {A C static analysis tool that combines Trail of Bits' tools
 	PASTA and VAST to lower C preprocessor macros down to MLIR.
 	Macroni is available at \href{https://github.com/trailofbits/macroni}{https://github.com/trailofbits/macroni}.}
-\resumeSubItem
-{Cpp2C}
+\resumeItem{Maki}
+{C++ Clang plugin that analyzes hows C preprocessor macros affect the C AST\@.
+Maki provides language porting tools information they can use to port macros to
+target languages in a way that preserves not just macro behavior, but also macro
+abstractions. Maki is the tool associated with my 2024 ICSE paper,
+\textit{Semantic Analysis of Macro Usage for Portability}.}
+\vspace{2pt}
+\resumeItem{Cpp2C}
 {C++ Clang plugin that automatically transforms eligible C preprocessor macros into C functions.
 	This enables other static analysis tools to analyze C programs without needing to preprocess them first and lose developer abstractions.}
 \vspace{2pt}
-\resumeSubItem
-{Chip-8 Emulator}
+\resumeItem{Chip-8 Emulator}
 {An emulator of the Chip-8 virtual machine, written in C.}
 \resumeSubHeadingListEnd
 
