@@ -5,8 +5,8 @@ cv.pdf : cv.tex
 
 watch:
 	make
-	open main.pdf
-	while `true`; do inotifywait -e modify . -r --exclude "(main.pdf)|(.*\.swp)" ; yes X | make main.pdf; done
+	open cv.pdf
+	while `true`; do inotifywait -e modify . -r --exclude "(cv.pdf)|(.*\.swp)" ; yes X | make cv.pdf; done
 
 view:	cv.pdf
 	open cv.pdf
