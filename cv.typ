@@ -306,6 +306,13 @@ Cyber Research (CAE-R). "
 = Volunteering
 
 #volunteering(
+  name: "UCF GradLaunch PhD Panelist"
+  , where: "Orlando, Florida"
+  , date: "August 2025"
+  , responsibilities: ()
+)
+
+#volunteering(
   name: "UCF Graduate School Info Session PhD Student Panel"
   , where: "Orlando, Florida"
   , date: "May 2025"
