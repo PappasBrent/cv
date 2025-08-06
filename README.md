@@ -2,4 +2,4 @@
 
 This repository contains my CV as a Typst file.
 
-You can build my CV with `typt cv.typ`.
+You can build my CV with `typst compile cv.typ`.
