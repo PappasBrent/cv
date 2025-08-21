@@ -44,7 +44,7 @@ GitHub: #link("https://www.github.com/PappasBrent")
   , end_date: "Present"
   , degree: "PhD"
   , major: "Computer Science"
-  , gpa: 3.975
+  , gpa: 3.983
   , courses: ("Analysis of Algorithms"
               , "Complexity Theory"
               , "Computer Architecture"
