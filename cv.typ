@@ -306,10 +306,31 @@ Cyber Research (CAE-R). "
 = Volunteering
 
 #volunteering(
+  name: "UCF \"Surviving Graduate School\" Panelist"
+  , where: "Orlando, Florida"
+  , date: "August 2025"
+  , responsibilities: (
+    (
+      name: "Community engagement"
+    , body: "Taught prospective graduate students how to become active in the UCF community and obtain financial support from UCF for travel."
+    ),
+    (
+      name: "Finance tips"
+    , body: "Explained how to obtain financial support from UCF for research-related travel."
+    ),
+  )
+)
+
+#volunteering(
   name: "UCF GradLaunch PhD Panelist"
   , where: "Orlando, Florida"
   , date: "August 2025"
-  , responsibilities: ()
+  , responsibilities: (
+    (
+      name: "Advising"
+    , body: "Instructed new graduate students how to manage their time and organize their day in order to be productive researchers."
+    ),
+  )
 )
 
 #volunteering(
@@ -318,7 +339,7 @@ Cyber Research (CAE-R). "
   , date: "May 2025"
   , responsibilities: (
     (
-      name: "Guided undergraduates"
+      name: "Advising"
     , body: "Answered undergraduate students’ questions about UCF’s Computer Science PhD program."
     ),
   )
