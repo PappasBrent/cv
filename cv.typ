@@ -263,7 +263,7 @@ Cyber Research (CAE-R). "
 
 #award(
   name: "Distinguished artifact reviewer"
-  , date: 0
+  , date: 2024
   , body: [For my attention to detail while reviewing artifacts for OOPLSA 2024. #link("https://2024.splashcon.org/track/splash-2024-oopsla-artifacts#distinguished-artifact-reviewers")[Link].]
 )
 
