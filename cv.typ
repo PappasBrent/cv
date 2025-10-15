@@ -305,6 +305,12 @@ Cyber Research (CAE-R). "
 
 #certification(body: "UCF Student Enhancement Training (SET) program certified.")
 
+= Workshops
+
+#workshop(name: "2025 CRA-E Career Landscape Workshop", where: "Virtual", date: "May, 2025")
+
+#workshop(name: "Programming Language Mentoring Workshop (PLMW)", where: "San Diego, California", date: "June 13-14, 2022")
+
 = Volunteering
 
 #volunteering(
