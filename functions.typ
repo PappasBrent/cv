@@ -65,6 +65,10 @@
 
 #let certification(body: none) = box[#body]
 
+#let workshop(name: none, where: none, date: none) = box[
+  *#name* #h(1fr) #where - #date
+]
+
 #let volunteering(
   name: none
   , where: none
