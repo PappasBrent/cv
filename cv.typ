@@ -58,7 +58,7 @@ GitHub: #link("https://www.github.com/PappasBrent")
 #skill(name: "Soft Skills", elements: ("Leadership", "Writing", "Communication",
                                        "Time management")) \
 
-= Experience
+= Work Experience
 
 #experience(
   where: "Orlando, Florida"
