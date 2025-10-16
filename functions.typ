@@ -23,8 +23,8 @@
   , employment_ranges: ()
   , title: none
   , responsibilities: ()) = box[
-    #where #h(1fr) #employer \
-    #employment_ranges.map(range => [#range.start - #range.end]).join(", ", last: ", and ") #h(1fr) #title
+    #title #h(1fr) #employer \
+    #employment_ranges.map(range => [#range.start - #range.end]).join(", ", last: ", and ") #h(1fr) #where
     #list(..responsibilities.map(r => [*#r.name*: #r.body]))
   ]
 
