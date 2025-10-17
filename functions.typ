@@ -7,8 +7,8 @@
   major: none,
   gpa: none,
   courses: ()) = box[
-    #where #h(1fr) #school \
-    #start_date - #end_date #h(1fr) #degree - #major\; GPA: #gpa \
+    #degree - #major\; GPA: #gpa #h(1fr) #school \
+    #start_date - #end_date #h(1fr) #where \
     *Courses*: #courses.join(", ", last: ", and ")
   ]
 
