@@ -26,20 +26,6 @@ GitHub: #link("https://www.github.com/PappasBrent")
 #education(
   where: "Orlando, Florida"
   , school: "University of Central Florida (UCF)"
-  , start_date: "August 2017"
-  , end_date: "May 2021"
-  , degree: "Bachelor of Science"
-  , major: "Computer Science"
-  , gpa: 3.849
-  , courses: ("Data structures and algorithms"
-              , "Systems software"
-              , "Programming languages"
-              , "Discrete structures")
-)
-
-#education(
-  where: "Orlando, Florida"
-  , school: "UCF"
   , start_date: "August 2021"
   , end_date: "Present"
   , degree: "PhD"
@@ -49,6 +35,20 @@ GitHub: #link("https://www.github.com/PappasBrent")
               , "Complexity Theory"
               , "Computer Architecture"
               , "Compiler Construction")
+)
+
+#education(
+  where: "Orlando, Florida"
+  , school: "UCF"
+  , start_date: "August 2017"
+  , end_date: "May 2021"
+  , degree: "Bachelor of Science"
+  , major: "Computer Science"
+  , gpa: 3.849
+  , courses: ("Data structures and algorithms"
+              , "Systems software"
+              , "Programming languages"
+              , "Discrete structures")
 )
 
 = Skills Summary
