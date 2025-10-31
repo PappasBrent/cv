@@ -314,6 +314,18 @@ Cyber Research (CAE-R). "
 = Volunteering
 
 #volunteering(
+  name: "UCF CS Grad Symposium 2025 Student Panelist"
+  , where: "Orlando, Florida"
+  , date: "October 2025"
+  , responsibilities: (
+    (
+      name: "Early PhD advice"
+    , body: "Recommended that new graduate students remain humble and start honing their communication skills immediately after starting a PhD."
+    ),
+  )
+)
+
+#volunteering(
   name: "UCF \"Surviving Graduate School\" Panelist"
   , where: "Orlando, Florida"
   , date: "August 2025"
