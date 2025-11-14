@@ -307,6 +307,8 @@ Cyber Research (CAE-R). "
 
 = Workshops
 
+#workshop(name: "2025 CRA-WP Virtual Mentoring Series Workshops", where: "Virtual", date: "October-November, 2025")
+
 #workshop(name: "2025 CRA-E Career Landscape Workshop", where: "Virtual", date: "May, 2025")
 
 #workshop(name: "Programming Language Mentoring Workshop (PLMW)", where: "San Diego, California", date: "June 13-14, 2022")
