@@ -88,7 +88,7 @@ GitHub: #link("https://www.github.com/PappasBrent")
     (start: "May 2023", end: "August 2023")
     , (start: "December 2023", end: "January 2024")
   )
-  , title: "Intern"
+  , title: "Software Engineering Intern"
   , responsibilities: (
     (
       name: "C Language Toolsmithing"
