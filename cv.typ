@@ -301,6 +301,8 @@ Cyber Research (CAE-R). "
 
 #certification(body: link("www.pappasbrent.com/assets/pdf/preparing_tomorrows_faculty_certificate_brent_pappas.pdf")[Completed higher education training, Preparing Tomorrow's Faculty])
 
+#certification(body: link("https://drive.google.com/file/d/14mdjA8-KYoBB35_bR3DWcZjZYUbRbWPl/view?usp=sharing")[Level 1 College Readiness and Learning Assessment (CRLA) certified tutor.])
+
 #certification(body: link("https://drive.google.com/file/d/1idZ5hhQQF4f-ZRQCBUplQTGU9YjS7fUs/view")[Level 2 College Readiness and Learning Assessment (CRLA) certified tutor.])
 
 #certification(body: "UCF Student Enhancement Training (SET) program certified.")
