@@ -258,7 +258,7 @@ Cyber Research (CAE-R). "
 #award(
   name: "UCF 3MT Finalist"
   , date: 2024
-  , body: "For effectively communicating my research to a non-specialist audience in a 3 minute talk."
+  , body: [For effectively communicating my research to a non-specialist audience in a 3 minute talk. #link("https://youtu.be/WWrDwh43a6k?si=c0dKVbDJigxduL__")[Video]. #link("https://drive.google.com/file/d/1Fz-gpwz65xgFBYCtvsA3Yh2gfTstVNhM/view?usp=sharing")[Certificate].]
 )
 
 #award(
