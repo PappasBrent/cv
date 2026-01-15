@@ -199,7 +199,7 @@ GitHub: #link("https://www.github.com/PappasBrent")
 #publication(
   name: "Semantic Anaysis of Macro Usage for Portability"
   , authors: ("Brent Pappas", "Paul Gazzillo")
-  , conference_or_journal: "International Conference on Software Engineering (ICSE)"
+  , conference_or_journal: "International Conference on Software Engineering"
   , year: 2024
   , accepted_papers: 234
   , submitted_papers: 1051
