@@ -187,6 +187,16 @@ GitHub: #link("https://www.github.com/PappasBrent")
 = Publications
 
 #publication(
+  name: "Build Code is Still Code: Finding the Antidote for Pipeline Poisoning (to appear)"
+  , authors: ("Brent Pappas", "Paul Gazzillo")
+  , conference_or_journal: "International Conference on Software Engineering (ICSE) New Ideas and Emerging Results (NIER)"
+  , year: 2026
+  , accepted_papers: 50
+  , submitted_papers: 151
+  , url: "https://dl.acm.org/doi/10.1145/3786582.3786799"
+)
+
+#publication(
   name: "Semantic Anaysis of Macro Usage for Portability"
   , authors: ("Brent Pappas", "Paul Gazzillo")
   , conference_or_journal: "International Conference on Software Engineering (ICSE)"
