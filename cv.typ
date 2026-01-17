@@ -31,6 +31,18 @@ GitHub: #link("https://www.github.com/PappasBrent")
   , degree: "PhD"
   , major: "Computer Science"
   , gpa: 3.983
+  , courses: ("Software Engineering",
+              "Formal Specification of Software Systems")
+)
+
+#education(
+  where: "Orlando, Florida"
+  , school: "UCF"
+  , start_date: "August 2021"
+  , end_date: "December 2025"
+  , degree: "Master of Science"
+  , major: "Computer Science"
+  , gpa: 3.983
   , courses: ("Analysis of Algorithms"
               , "Complexity Theory"
               , "Computer Architecture"
