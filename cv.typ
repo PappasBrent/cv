@@ -278,6 +278,12 @@ Cyber Research (CAE-R). "
 = Honors and Awards
 
 #award(
+  name: "GTA Excellence Award"
+  , date: 2026
+  , body: [For providing exceptional teaching assistance to the course Systems Software. #link("https://drive.google.com/file/d/1Gas3ek39nMf2H7F3IKvntICKfKLw-Lrd/view?usp=drive_link")[Certificate].]
+)
+
+#award(
   name: "UCF 3MT Finalist"
   , date: 2024
   , body: [For effectively communicating my research to a non-specialist audience in a 3 minute talk. #link("https://youtu.be/WWrDwh43a6k?si=c0dKVbDJigxduL__")[Video]. #link("https://drive.google.com/file/d/1Fz-gpwz65xgFBYCtvsA3Yh2gfTstVNhM/view?usp=sharing")[Certificate].]
