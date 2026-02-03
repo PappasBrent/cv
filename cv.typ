@@ -284,6 +284,12 @@ Cyber Research (CAE-R). "
 )
 
 #award(
+  name: "CRA Scholarship Invitee"
+  , date: 2026-01-16
+  , body: [The CRA-WP arranged and paid for me to travel to the 2026 CRA-WP Grad Cohort Workshop in Seattle, Washington, because of my superior workshop application.]
+)
+
+#award(
   name: "UCF 3MT Finalist"
   , date: 2024
   , body: [For effectively communicating my research to a general audience in a 3 minute talk. #link("https://youtu.be/WWrDwh43a6k?si=c0dKVbDJigxduL__")[Video]. #link("https://drive.google.com/file/d/1Fz-gpwz65xgFBYCtvsA3Yh2gfTstVNhM/view?usp=sharing")[Certificate].]
