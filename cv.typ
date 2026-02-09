@@ -240,6 +240,14 @@ GitHub: #link("https://www.github.com/PappasBrent")
 
 #presentation(
   name: "Invited Talk - The PhD Life"
+  , description: "Guest lecture on graduate student life presented to Sonoma State University's 2026 Spring Colloquium, hosted by Dr. John Sullins."
+  , date: "2026-02-09"
+  , url: "https://docs.google.com/presentation/d/1WUTaZjdJ1uzKI8dT6R4X5v8zV8xtIPd3KFkK8yeqoBE/edit?usp=sharing"
+  , url_text: "Slides link"
+)
+
+#presentation(
+  name: "Invited Talk - The PhD Life"
   , description: "Guest lecture on graduate student life presented to Dr. Suzanne Rivoire’s undergraduate course, Computing Professions, at Sonoma State University."
   , date: "2025-05-08"
   , url: "https://docs.google.com/presentation/d/1bzOUo4KNtD9nto1ynTbz5cZo12AiLo_7EIrrJX-tico/edit"
