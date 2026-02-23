@@ -286,14 +286,20 @@ Cyber Research (CAE-R). "
 = Honors and Awards
 
 #award(
-  name: "GTA Excellence Award"
+  name: "GTA Excellence Award (University level)"
+  , date: 2026
+  , body: [For providing exceptional teaching assistance to the course Systems Software. #link(https://drive.google.com/file/d/17G9zGkZdGVgldvZM5u9xAr1xgcUMaAyz/view?usp=drive_link)[Award letter].]
+)
+
+#award(
+  name: "GTA Excellence Award (College level)"
   , date: 2026
   , body: [For providing exceptional teaching assistance to the course Systems Software. #link("https://drive.google.com/file/d/1Gas3ek39nMf2H7F3IKvntICKfKLw-Lrd/view?usp=drive_link")[Certificate].]
 )
 
 #award(
   name: "CRA Scholarship Invitee"
-  , date: 2026-01-16
+  , date: 2026
   , body: [The CRA-WP arranged and paid for me to travel to the 2026 CRA-WP Grad Cohort Workshop in Seattle, Washington, because of my superior workshop application.]
 )
 
