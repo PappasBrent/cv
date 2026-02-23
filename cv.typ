@@ -288,7 +288,7 @@ Cyber Research (CAE-R). "
 #award(
   name: "GTA Excellence Award (University level)"
   , date: 2026
-  , body: [For providing exceptional teaching assistance to the course Systems Software. #link(https://drive.google.com/file/d/17G9zGkZdGVgldvZM5u9xAr1xgcUMaAyz/view?usp=drive_link)[Award letter].]
+  , body: [For providing exceptional teaching assistance to the course Systems Software. #link("https://drive.google.com/file/d/17G9zGkZdGVgldvZM5u9xAr1xgcUMaAyz/view?usp=drive_link")[Award letter].]
 )
 
 #award(
