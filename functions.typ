@@ -1,3 +1,15 @@
+#let print_list(list) = {
+    if (list.len() == 1) {
+        list.first()
+    }
+    else if (list.len() == 2) {
+        [#list.first() and #list.last()]
+    }
+    else {
+        list.join(", ", last: ", and ")
+    }
+}
+
 #let education(
   where: none,
   school: none,
@@ -9,12 +21,11 @@
   courses: ()) = box[
     #degree - #major\; GPA: #gpa #h(1fr) #school \
     #start_date - #end_date #h(1fr) #where \
-    *Courses*: #courses.join(", ", last: ", and ")
+    *Courses*: #print_list(courses)
   ]
 
-
 #let skill(name: none, elements: ()) = box[
-  *#name*: #elements.join(", ", last: ", and ")
+  *#name*: #print_list(elements)
 ]
 
 #let experience(
@@ -24,10 +35,9 @@
   , title: none
   , responsibilities: ()) = box[
     #title #h(1fr) #employer \
-    #employment_ranges.map(range => [#range.start - #range.end]).join(", ", last: ", and ") #h(1fr) #where
+    #print_list(employment_ranges.map(range => [#range.start - #range.end])) #h(1fr) #where
     #list(..responsibilities.map(r => [*#r.name*: #r.body]))
   ]
-
 
 #let project(name: none, body: none) = box[*#name*: #body]
 
@@ -39,16 +49,19 @@
   , accepted_papers: 1
   , submitted_papers: 1
   , url: ""
+  , badges: ()
 ) = {
   let acceptance_rate = calc.round(
     accepted_papers / submitted_papers * 100
     , digits: 2
   )
-  if submitted_papers != 1 {
-    box[*#name*: by #authors.join(", ", last: ", and "). #conference_or_journal. Acceptance rate of #acceptance_rate% (#accepted_papers / #submitted_papers). #link(url).]
-  } else {
-    box[*#name*: by #authors.join(", ", last: ", and "). #conference_or_journal. #link(url).]
-  }
+  box[
+        *#name*: by #print_list(authors).
+        #conference_or_journal.
+        #if submitted_papers != 1 { [Acceptance rate of #acceptance_rate% (#accepted_papers / #submitted_papers).] }
+        #link(url).
+        #if badges.len() != 0 { [Artifact badges: #print_list(badges).] }
+  ]
 }
 
 #let presentation(
