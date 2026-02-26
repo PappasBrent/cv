@@ -206,6 +206,7 @@ GitHub: #link("https://www.github.com/PappasBrent")
   , accepted_papers: 50
   , submitted_papers: 151
   , url: "https://dl.acm.org/doi/10.1145/3786582.3786799"
+  , badges: ("Available", "Reusable")
 )
 
 #publication(
@@ -216,6 +217,7 @@ GitHub: #link("https://www.github.com/PappasBrent")
   , accepted_papers: 234
   , submitted_papers: 1051
   , url: "https://dl.acm.org/doi/10.1145/3597503.3623323"
+  , badges: ("Available", "Reusable")
 )
 
 #publication(
@@ -234,6 +236,7 @@ GitHub: #link("https://www.github.com/PappasBrent")
   , accepted_papers: 197
   , submitted_papers: 691
   , url: "https://dl.acm.org/doi/10.1145/3510003.3512763"
+  , badges: ("Available", "Reusable")
 )
 
 = Presentations
