@@ -57,10 +57,10 @@ GitHub: #link("https://www.github.com/PappasBrent")
   , degree: "Bachelor of Science"
   , major: "Computer Science"
   , gpa: 3.849
-  , courses: ("Data structures and algorithms"
-              , "Systems software"
-              , "Programming languages"
-              , "Discrete structures")
+  , courses: ("Data structures and Algorithms"
+              , "Systems Software"
+              , "Programming Languages"
+              , "Discrete Structures")
 )
 
 = Skills Summary
