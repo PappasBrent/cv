@@ -90,3 +90,9 @@
     *#name* #h(1fr) #where - #date
     #list(..responsibilities.map(r => [*#r.name*: #r.body]))
 ]
+
+#let advisee(
+    name: none
+    , date: none
+    , projects: none
+) = box[#name. #date. #projects.]
