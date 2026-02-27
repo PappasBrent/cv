@@ -499,3 +499,115 @@ Cyber Research (CAE-R). "
     ),
   )
 )
+
+= Advising
+
+== Undergraduate Researchers
+
+#advisee(
+    name: "Aaron Burgess"
+    , date: "2026 - Present"
+    , projects: "Human factors in software engineering"
+)
+
+#advisee(
+    name: "Thiago Airoldi"
+    , date: "2026 - Present"
+    , projects: "Analysis and security of software development pipelines"
+)
+
+#advisee(
+    name: "Rasmin Ahmed"
+    , date: "2026 - Present"
+    , projects: "Analysis and security of software development pipelines"
+)
+
+#advisee(
+    name: "Daniel Henriquez"
+    , date: "2026 - Present"
+    , projects: "Analysis and security of software development pipelines"
+)
+
+#advisee(
+    name: "Brayden Coggin"
+    , date: "2026 - Present"
+    , projects: "Analysis and security of software development pipelines"
+)
+
+#advisee(
+    name: "Thai Nguyen"
+    , date: "2025 - 2026"
+    , projects: "Human factors in software engineering and analysis and security of software development pipelines"
+)
+
+#advisee(
+    name: "Nikola Krstajic"
+    , date: "2025"
+    , projects: "Human factors in software engineering"
+)
+
+#advisee(
+    name: "Michael Johnson"
+    , date: "2025 - Present"
+    , projects: "Human factors in software engineering and analysis and security of software development pipelines"
+)
+
+#advisee(
+    name: "Layla Le"
+    , date: "2025"
+    , projects: "Human factors in software engineering"
+)
+
+#advisee(
+    name: "Kenneth Valladares"
+    , date: "2025"
+    , projects: "Human factors in software engineering"
+)
+
+#advisee(
+    name: "Julian Velez"
+    , date: "2025"
+    , projects: "Human factors in software engineering"
+)
+
+#advisee(
+    name: "Jorge Toledo"
+    , date: "2025"
+    , projects: "Human factors in software engineering"
+)
+
+#advisee(
+    name: "Hasini Daliboyina"
+    , date: "2025"
+    , projects: "Human factors in software engineering"
+)
+
+#advisee(
+    name: "David Gusmao"
+    , date: "2025 - Present"
+    , projects: "Human factors in software engineering and analysis and security of software development pipelines"
+)
+
+#advisee(
+    name: "Anju Thomas"
+    , date: "2025"
+    , projects: "Human factors in software engineering"
+)
+
+#advisee(
+    name: "Adam Betinsky"
+    , date: "2025 - Present"
+    , projects: "Human factors in software engineering and analysis and security of software development pipelines"
+)
+
+#advisee(
+    name: "Zachary Burkett"
+    , date: "2024"
+    , projects: "Semantics-aware translation of C preprocessor"
+)
+
+#advisee(
+    name: "Joseph Zalusky"
+    , date: "2024"
+    , projects: "Semantics-aware translation of C preprocessor macros"
+)
